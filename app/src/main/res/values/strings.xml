@@ -3,27 +3,47 @@
 
     <string name="txt_find_good">Find good</string>
     <string name="txt_food_around_you">Food around you</string>
-    <string name="txt_popular">Popular</string>
-    <string name="txt_pizza">Pizza</string>
-    <string name="txt_top">Top</string>
-    <string name="txt_all_menu">All menu</string>
-    <string name="txt_salads">Salads</string>
-    <string name="txt_italian_food">Italian food</string>
-    <string name="txt_indian_cheese_pizza">Indian Cheese pizza</string>
+
+
+    <string name="txt_filtro_tudo">Tudo</string>
+    <string name="txt_filtro_popular">Popular</string>
+    <string name="txt_filtro_sushi">Sushis</string>
+    <string name="txt_filtro_barcas">Barcas</string>
+    <string name="txt_filtro_saladas">Saladas</string>
+    <string name="txt_filtro_sobremesas">Sobremesas</string>
+
+
+
     <string name="txt_american_cheese_pizza">American Cheese pizza</string>
-    <string name="txt_japanese_cheese_pizza">Japanese Cheese pizza</string>
+    <string name="txt_barca_P">Barca P</string>
+    <string name="txt_barca_M">Barca M</string>
+    <string name="txt_barca_G">Barca G</string>
+
+    <string name="txt_sushi">Sushi (6 unidades)</string>
+    <string name="txt_nigiri">Nigiri (6 unidades)</string>
+    <string name="txt_hot">Hot (6 unidades)</string>
+    <string name="txt_temaki">Temaki</string>
+    <string name="txt_sashimi">Sashimi (6 unidades)</string>
+
+
     <string name="txt_bali_cheese_pizza">Bali Cheese pizza</string>
+
+
+
     <string name="txt_price_1">R$6.50</string>
     <string name="txt_price_2">R$16.50</string>
     <string name="txt_price_3">R$8.50</string>
     <string name="txt_price_4">R$12.00</string>
+
     <string name="txt_your_cart">Your Cart</string>
     <string name="txt_food">Food</string>
     <string name="txt_item_total">Item total:</string>
     <string name="txt_delivery_change">Delivery Change:</string>
+
     <string name="txt_tax">Tax:</string>
     <string name="txt_total">Total:</string>
     <string name="txt_checkout">Checkout</string>
+
     <string name="botao_menu">botao_menu</string>
     <string name="botao_pesquisa">botao_pesquisa</string>
 

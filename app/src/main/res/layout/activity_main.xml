@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color5"
+    android:background="@drawable/background_gradiente"
     tools:context=".MainActivity">
 
 <androidx.core.widget.NestedScrollView
@@ -25,9 +25,12 @@
                 android:id="@+id/btnMenu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:src="@drawable/baseline_tune_24"
-                android:contentDescription="@string/botao_menu" />
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="@string/botao_menu"
+                android:src="@drawable/baseline_tune_24" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -44,7 +47,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txt_find_good"
             android:textColor="@color/color4"
-            android:textSize="24sp"
+            android:textSize="22sp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp" />
 
@@ -52,8 +55,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_food_around_you"
-            android:textColor="@color/color4"
+            android:textColor="@color/white"
             android:textSize="26sp"
+            android:textStyle="bold"
             android:layout_marginStart="16dp" />
 
         <HorizontalScrollView
@@ -67,37 +71,44 @@
             <com.google.android.material.chip.Chip
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_popular"
+                android:text="@string/txt_filtro_tudo"
+                android:backgroundTint="@color/color3"
                 app:chipBackgroundColor="@color/white"
                 app:rippleColor="@color/color2"/>
             <com.google.android.material.chip.Chip
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_pizza"
+                android:text="@string/txt_filtro_popular"
+                android:backgroundTint="@color/color3"
                 app:chipBackgroundColor="@color/white"
                 app:rippleColor="@color/color2"/>
             <com.google.android.material.chip.Chip
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_top"
+                android:text="@string/txt_filtro_sushi"
+                android:backgroundTint="@color/color3"
+                app:chipBackgroundColor="@color/white"
+                app:rippleColor="@color/color2"/>
+
+            <com.google.android.material.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_filtro_barcas"
+                android:backgroundTint="@color/color3"
                 app:chipBackgroundColor="@color/white"
                 app:rippleColor="@color/color2"/>
             <com.google.android.material.chip.Chip
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_all_menu"
+                android:text="@string/txt_filtro_saladas"
+                android:backgroundTint="@color/color3"
                 app:chipBackgroundColor="@color/white"
                 app:rippleColor="@color/color2"/>
             <com.google.android.material.chip.Chip
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_salads"
-                app:chipBackgroundColor="@color/white"
-                app:rippleColor="@color/color2"/>
-            <com.google.android.material.chip.Chip
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/txt_italian_food"
+                android:text="@string/txt_filtro_sobremesas"
+                android:backgroundTint="@color/color3"
                 app:chipBackgroundColor="@color/white"
                 app:rippleColor="@color/color2"/>
         </com.google.android.material.chip.ChipGroup>
@@ -118,7 +129,9 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/color3">
+
                     <ToggleButton
                         android:layout_width="48dp"
                         android:layout_height="48dp"
@@ -138,7 +151,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/txt_american_cheese_pizza"
+                        android:text="@string/txt_sushi"
                         android:layout_gravity="center"/>
                     <TextView
                         android:layout_width="wrap_content"
@@ -160,7 +173,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/color3">
                     <ToggleButton
                         android:layout_width="48dp"
                         android:layout_height="48dp"
@@ -175,17 +189,17 @@
                     <ImageView
                         android:layout_width="96dp"
                         android:layout_height="96dp"
-                        android:src="@drawable/sushi"
+                        android:src="@drawable/sashimi"
                         android:layout_gravity="center"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/txt_american_cheese_pizza"
+                        android:text="@string/txt_sashimi"
                         android:layout_gravity="center"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/txt_price_1"
+                        android:text="@string/txt_price_3"
                         android:textSize="16sp"
                         android:textColor="@color/black"
                         android:layout_gravity="center"/>
@@ -210,7 +224,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/color3">
                     <ToggleButton
                         android:layout_width="48dp"
                         android:layout_height="48dp"
@@ -225,17 +240,17 @@
                     <ImageView
                         android:layout_width="96dp"
                         android:layout_height="96dp"
-                        android:src="@drawable/sushi"
+                        android:src="@drawable/temaki"
                         android:layout_gravity="center"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/txt_american_cheese_pizza"
+                        android:text="@string/txt_temaki"
                         android:layout_gravity="center"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/txt_price_1"
+                        android:text="@string/txt_price_2"
                         android:textSize="16sp"
                         android:textColor="@color/black"
                         android:layout_gravity="center"/>
@@ -252,7 +267,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/color3">
                     <ToggleButton
                         android:layout_width="48dp"
                         android:layout_height="48dp"
@@ -267,12 +283,12 @@
                     <ImageView
                         android:layout_width="96dp"
                         android:layout_height="96dp"
-                        android:src="@drawable/sushi"
+                        android:src="@drawable/hot"
                         android:layout_gravity="center"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/txt_american_cheese_pizza"
+                        android:text="@string/txt_hot"
                         android:layout_gravity="center"/>
                     <TextView
                         android:layout_width="wrap_content"

@@ -11,8 +11,9 @@
 
     <color name="color1">#F9F9F9</color>
     <color name="color2">#FDC138</color>
-    <color name="color3">#FA6E52</color>
-    <color name="color4">#2A2A2A</color>
-    <color name="color5">#FECA44</color>
+    <color name="color3">#FFF6CB</color>
+    <color name="color4">#EC9440</color>
+    <color name="color5">#2A2A2A</color>
+    <color name="color6">#FECA44</color>
 
 </resources>
