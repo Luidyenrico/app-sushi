@@ -33,6 +33,14 @@
                 android:src="@drawable/baseline_tune_24" />
 
             <ImageView
+                android:id="@+id/logo"
+                android:layout_marginTop="5dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/logocomnome" />
+
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/baseline_search_24"
@@ -250,7 +258,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/txt_price_2"
+                        android:text="@string/txt_price_4"
                         android:textSize="16sp"
                         android:textColor="@color/black"
                         android:layout_gravity="center"/>
@@ -294,6 +302,477 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/txt_price_1"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/color3">
+                    <ToggleButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/coracao_selecionado"
+                        android:checked="false"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_margin="6dp"
+                        android:layout_gravity="end"/>
+
+                    <ImageView
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/barca2"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_barca_P"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_price_7"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/color3">
+                    <ToggleButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/coracao_selecionado"
+                        android:checked="false"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_margin="6dp"
+                        android:layout_gravity="end"/>
+
+                    <ImageView
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/barca3"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_barca_M"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_price_8"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/color3">
+                    <ToggleButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/coracao_selecionado"
+                        android:checked="false"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_margin="6dp"
+                        android:layout_gravity="end"/>
+
+                    <ImageView
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/barca1"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_barca_G"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_price_9"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/color3">
+                    <ToggleButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/coracao_selecionado"
+                        android:checked="false"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_margin="6dp"
+                        android:layout_gravity="end"/>
+
+                    <ImageView
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/coco" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_bolo_coco"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_price_5"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/color3">
+                    <ToggleButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/coracao_selecionado"
+                        android:checked="false"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_margin="6dp"
+                        android:layout_gravity="end"/>
+
+                    <ImageView
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/chocolate"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_bolo_chocolate"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_price_5"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/color3">
+                    <ToggleButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/coracao_selecionado"
+                        android:checked="false"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_margin="6dp"
+                        android:layout_gravity="end"/>
+
+                    <ImageView
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/pudim"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_pudim"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_price_6"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/color3">
+                    <ToggleButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/coracao_selecionado"
+                        android:checked="false"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_margin="6dp"
+                        android:layout_gravity="end"/>
+
+                    <ImageView
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/sorvete"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_sorvete"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_price_3"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/color3">
+                    <ToggleButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/coracao_selecionado"
+                        android:checked="false"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_margin="6dp"
+                        android:layout_gravity="end"/>
+
+                    <ImageView
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/sprite"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_sprite"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_price_refri"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/color3">
+                    <ToggleButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/coracao_selecionado"
+                        android:checked="false"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_margin="6dp"
+                        android:layout_gravity="end"/>
+
+                    <ImageView
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/coca"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_coca"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_price_refri"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/color3">
+                    <ToggleButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/coracao_selecionado"
+                        android:checked="false"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_margin="6dp"
+                        android:layout_gravity="end"/>
+
+                    <ImageView
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/hot"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_fanta"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_price_refri"
                         android:textSize="16sp"
                         android:textColor="@color/black"
                         android:layout_gravity="center"/>
