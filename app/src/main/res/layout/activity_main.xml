@@ -762,7 +762,7 @@
                     <ImageView
                         android:layout_width="96dp"
                         android:layout_height="96dp"
-                        android:src="@drawable/hot"
+                        android:src="@drawable/fanta"
                         android:layout_gravity="center"/>
                     <TextView
                         android:layout_width="wrap_content"
