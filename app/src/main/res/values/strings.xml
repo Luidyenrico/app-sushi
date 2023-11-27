@@ -9,7 +9,7 @@
     <string name="txt_filtro_popular">Popular</string>
     <string name="txt_filtro_sushi">Sushis</string>
     <string name="txt_filtro_barcas">Barcas</string>
-    <string name="txt_filtro_saladas">Saladas</string>
+    <string name="txt_filtro_bebidas">Bebidas</string>
     <string name="txt_filtro_sobremesas">Sobremesas</string>
 
 
@@ -42,6 +42,7 @@
     <string name="txt_price_7">R$65.00</string>
     <string name="txt_price_8">R$78.00</string>
     <string name="txt_price_9">R$96.00</string>
+    <string name="txt_price_10">R$116.00</string>
     <string name="txt_price_refri">R$6.00</string>
 
 
@@ -50,5 +51,7 @@
 
     <string name="botao_menu">botao_menu</string>
     <string name="botao_pesquisa">botao_pesquisa</string>
+    <string name="txt_guarana">Guarana (Lata)</string>
+    <string name="txt_barca_GG">Barca GG</string>
 
 </resources>
